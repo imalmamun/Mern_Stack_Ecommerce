@@ -1,0 +1,22 @@
+.banner {
+  background-color: lightpink;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.banner > a > button{
+    padding: 1vh;
+    background-color: white;
+    border: 1px;
+    border-radius: 0px;
+}
+
+.homeHeading{
+    text-align: center;
+    color:lightpink;
+}

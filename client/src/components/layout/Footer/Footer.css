@@ -1,0 +1,39 @@
+footer{
+margin-top: 10vmax;
+padding: 2vmax;
+background-color: #333333;
+display: flex;
+align-items: center;
+}
+
+.leftFooter{
+width: 20%;
+}
+.leftFooter > img {
+    width: 10vw;
+    margin: 1vmax;
+    cursor: pointer;
+}
+.midFooter{
+    width: 60vw;
+    text-align: center;
+}
+
+.midFooter > h4{
+    font-size: 6vh;
+    color: white;
+}
+.rightFooter{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.rightFooter > a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s
+}
+
+.rightFooter > a:hover{
+    color: red;
+}
